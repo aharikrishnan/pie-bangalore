@@ -3,6 +3,47 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+  max-width:100%;
+  overflow-x:hidden;
+}
+*{
+  box-sizing:border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+nav .container-fluid, .row{
+  max-width: 1300px;
+  margin:auto;
+}
+.main-banner img{
+  width:100%;
+  /*max-width: 1300px;*/
+  margin:auto;
+}
+.slider {
+  width: 100%;
+   margin: 20px auto; 
+}
+.slide{
+  width:25%;
+}
+
+.slick-slide {
+  margin: 0px 10px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
 @media (min-width: 768px) {
   body {
     padding-top: 70px !important;
@@ -130,7 +171,7 @@ body{
 .section-2, .section-3 {
   background: #f1e686;
   padding-top: 30px;
-  margin: 3px 0;
+  margin: 3px auto;
 }
 .section-3 {
   padding-bottom: 30px;

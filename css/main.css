@@ -42,8 +42,30 @@ nav .container-fluid, .row{
 
 .slick-prev:before,
 .slick-next:before {
-  color: black;
+  content:none;
 }
+
+.slick-arrow{
+  width: 0;
+  height: 0;
+  top: 47%;
+  position: absolute;
+  background: none;
+}
+
+.slick-prev {
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 25px solid #da3263;
+  left  : -20px;
+}
+.slick-next {
+   border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 25px solid #da3263;
+  right: -20px;
+}
+
 @media (min-width: 768px) {
   body {
     padding-top: 70px !important;

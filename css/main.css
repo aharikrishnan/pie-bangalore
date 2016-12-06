@@ -26,7 +26,7 @@ nav .container-fluid, .row{
 }
 .slider {
   width: 100%;
-   margin: 20px auto; 
+   margin: 20px auto;
 }
 .slide{
   width:25%;
@@ -163,27 +163,62 @@ body{
   font-weight: 700;
 }
 .question-btn {
-  font-size: 18px;
+  font-size: 23px;
   text-align: center;
   margin: 10px;
-  padding: 10px;
+  padding: 10px 30px;
+  font-weight: 700;
 }
 .section-2, .section-3 {
   background: #f1e686;
   padding-top: 30px;
-  margin: 3px auto;
+  margin: 3px auto 0 auto;
 }
 .section-3 {
   padding-bottom: 30px;
 }
-.section-4 {
-  height: 100px;
-  font-size: 22px;
+.section-4 .column {
+  height: 120px;
+  font-size: 23px;
   text-align: left;
-  padding: 10px 0;
+  padding: 25px 0;
   background: #a55941;
   color: #fff;
-}
-.section-4 p {
   padding-left: 30px;
+}
+.section-4 .column.box-1 {
+  border-right: 2px solid #fff;
+  padding-left: 75px;
+}
+.section-4 .column.box-2 {
+  font-size: 20px;
+}
+
+footer {
+  background: #a55941;
+  color: #fff;
+  background-color: #42A5F5;
+  text-align: center;
+  font-size: 17px;
+}
+footer .column {
+  height: 75px;
+}
+
+footer .column.box-1 {
+  border-right: 2px solid #fff;
+  margin: 15px 0px;
+}
+footer .column.box-1 .contact-no {
+  padding: 10px;
+}
+
+footer .column.box-1 .contact-mail {
+  padding: 10px;
+  text-align: left;
+}
+
+footer .column.box-2 {
+  font-size: 32px;
+  padding: 30px;
 }
